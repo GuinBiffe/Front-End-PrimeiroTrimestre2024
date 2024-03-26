@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="styyyle.css">
 		<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-    <header>
-      <ul>
-        <li>
-            <a href="cadastro2.html">cadastro</a>
-        </li>
-      </ul>  
+    <header class="topo">
+        <h1>Primeiro cabeçalho</h1> 
     </header>
-    <main>
+    <main class="section-aside">
+        <section class="section1">
+            <header>
+                <h2>Cabeçalho da section</h2>
+            </header>
+            <div>
+                <h3>Texto abaixo do cabeçalho da section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aperiam provident, deleniti accusamus ullam consequuntur autem. Commodi, iusto cupiditate consequatur nulla quas beatae eveniet ab rem tenetur iure ipsum natus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque est doloremque repudiandae dolor eius, unde explicabo possimus ut, laborum hic perspiciatis iste commodi atque dicta magni id illum reiciendis vero.</p>
+            </div>
+        </section>
+        <aside>
+            <header>
+                <h2>Cabeçalho do aside</h2>
+            </header>
+            <div>
+                <h3>Texto abaixo do cabeçalho da section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aperiam provident, deleniti accusamus ullam consequuntur autem. Commodi, iusto cupiditate consequatur nulla quas beatae eveniet ab rem tenetur iure ipsum natus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque est doloremque repudiandae dolor eius, unde explicabo possimus ut, laborum hic perspiciatis iste commodi atque dicta magni id illum reiciendis vero.</p>
+            </div>
+        </aside>
+</main>
+    <main class="cadastro2">
         <label for="nomes">Seu nome:</label>
         <input type="text" name="" id=""> <br>
         <label for="email">Seu email:</label>
@@ -28,7 +46,11 @@
         <label for="senha">Sua senha:</label>
         <input type="password" name="" id=""> <br>
         <input type="submit" value="submit">
-
+        <ul>
+            <li>
+                <a href="cadastro2.html">cadastro</a>
+            </li>
+          </ul> 
     </main>
 </body>
 </html>
