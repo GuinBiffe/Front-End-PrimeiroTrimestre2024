@@ -4,3 +4,42 @@ body {
 	font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+ .topo {
+    padding: 0px 20px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #CCC;
+ }
+
+ .section-aside{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+ }
+ 
+ .section1{
+    margin-right: 50px;
+ }
+
+ section, aside {
+    width:45%;
+ }
+
+ section header {
+    padding: 10px;
+    text-align: justify;
+    background-color: #ccc;
+ }
+
+ aside header {
+    padding: 10px;
+    text-align: justify;
+    background-color: #ccc;
+ }
+ 
+ h1, h2{
+    color: #fff
+ }
+
